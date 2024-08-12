@@ -7,7 +7,7 @@ Verb-Noun (Get-Command)
 
 Expression (12 / 2 or 8GB + 1024KB)
 
-Executed in a script (.\don-script.ps1)
+Executed in a script (.\vikar-script.ps1)
 
 Or Right-Click and "Run with PowerShell" in explorer
 
