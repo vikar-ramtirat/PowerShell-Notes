@@ -1,6 +1,7 @@
 # 2.9 Configuring the Windows Firewall
 
 Configuring the Windows Firewall
+
     If necessary, Import-Module NetSecurity
     Enable/Disable Firewall
         Set-NetFirewallProfile -All -Enabled “true”
