@@ -1,6 +1,7 @@
 # 3.3 Managing DNS Records
 
 Adding Resourse Records
+
     Add an A record
         Add-DnsServerResourceRecord -ZoneName "Contoso.com" -A -Name "Host34" -AllowUpdateAny -IPv4Address "10.17.1.34" -TimeToLive 01:00:00 -AgeRecord
 
