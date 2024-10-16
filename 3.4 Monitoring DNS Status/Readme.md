@@ -8,8 +8,8 @@
      Get server statistics for the local DNS server
       Get-DnsServerStatistics
 
-    Get server statistics for a specific zone
+     Get server statistics for a specific zone
       Get-DnsServerStatistics -ZoneName contoso.com
 
-    Clear statistics for a specific zone
-     Get-DnsServerStatistics -ZoneName contoso.com -Clear
+     Clear statistics for a specific zone
+      Get-DnsServerStatistics -ZoneName contoso.com -Clear
