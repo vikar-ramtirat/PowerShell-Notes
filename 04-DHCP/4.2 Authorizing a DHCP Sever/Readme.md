@@ -1,15 +1,12 @@
 # Authorizing a DHCP Server
 
- #Authorize server
+  Authorize server
 
-  #List authorized servers
+   List authorized servers
+    Get-DhcpServerInDC
 
-   Get-DhcpServerInDC
+  Authorize a server
+    Add-DhcpServerInDC -DnsName server1.domain.com -IPAddress 192.168.0.2
 
- #Authorize a server
-
-  Add-DhcpServerInDC -DnsName server1.domain.com -IPAddress 192.168.0.2
-
- #De-Authorize a server
- 
-  Remove-DhcpServerInDC -DnsName server1.domain.com -IPAddress 192.168.0.2
+  De-Authorize a server
+    Remove-DhcpServerInDC -DnsName server1.domain.com -IPAddress 192.168.0.2
