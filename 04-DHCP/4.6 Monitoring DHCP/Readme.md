@@ -2,14 +2,14 @@
 
     Monitoring Status
 
-    List Scopes
+        List Scopes
 
-        Get-DhcpServerv4Scope
-        
-    List Leases
+            Get-DhcpServerv4Scope
 
-        Get-DhcpServerv4Lease -AllLeases -ScopeId 10.1.230.0
+        List Leases
 
-    Scope usage
+            Get-DhcpServerv4Lease -AllLeases -ScopeId 10.1.230.0
 
-        Get-DhcpServerv4ScopeStatistics -ScopeId 10.1.230.0
+        Scope usage
+
+            Get-DhcpServerv4ScopeStatistics -ScopeId 10.1.230.0
