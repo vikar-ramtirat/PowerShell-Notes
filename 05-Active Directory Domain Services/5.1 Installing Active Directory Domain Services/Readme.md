@@ -9,6 +9,7 @@
    Get-command –module ADDSDeployment
 
   Promoting a DC
+  
    Create a new forest
  
     Install-ADDSForest -DomainName LearnAzureinSteps.com -InstallDNS
