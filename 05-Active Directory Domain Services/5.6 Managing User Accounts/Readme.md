@@ -4,6 +4,7 @@
 
   Create
     New-ADUser Vikar Ramtirat
+    
     New-ADUser –Name “Vikar Ramtirar” –GivenName Vikar –Surname Ramtirat –UserPrincipalName vikar.ramtirat@learnazureinSteps.com –SamAccountName VikarRamtirat –Enabled 1 –AccountPassword (Read-Host –AsSecureString “Password”)
 
   Modify
