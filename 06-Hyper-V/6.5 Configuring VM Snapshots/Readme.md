@@ -8,8 +8,8 @@
 
  List Snapshots
 
-   Get-VMSnapshot –VMName WEBSERVER01
+    Get-VMSnapshot –VMName WEBSERVER01
 
  Apply/Rollback to a Snapshot
 
-   Restore-VMSnapshot –Name 'Prior to Update' –VMName WEBSERVER01
+    Restore-VMSnapshot –Name 'Prior to Update' –VMName WEBSERVER01
