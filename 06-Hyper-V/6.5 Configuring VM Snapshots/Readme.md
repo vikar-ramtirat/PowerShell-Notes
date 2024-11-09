@@ -4,12 +4,12 @@
 
   Create a Snapshot on a VM
 
-   Checkpoint-VM -Name WEBSERVER01 -SnapshotName "Prior to Update"
+    Checkpoint-VM -Name WEBSERVER01 -SnapshotName "Prior to Update"
 
  List Snapshots
 
-  Get-VMSnapshot –VMName WEBSERVER01
+   Get-VMSnapshot –VMName WEBSERVER01
 
  Apply/Rollback to a Snapshot
- 
-  Restore-VMSnapshot –Name 'Prior to Update' –VMName WEBSERVER01
+
+   Restore-VMSnapshot –Name 'Prior to Update' –VMName WEBSERVER01
